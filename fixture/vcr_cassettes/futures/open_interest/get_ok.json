@@ -1,0 +1,32 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Content-Type": "application/json",
+        "coinglassSecret": "***"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://open-api.coinglass.com/api/pro/v1/futures/openInterest?symbol=BTC"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"code\":\"0\",\"msg\":\"success\",\"data\":[{\"exchangeName\":\"All\",\"symbol\":\"BTC\",\"openInterest\":17175976920.6869838350000000000,\"openInterestAmount\":355389.070265373895229607,\"volUsd\":42750282008.581546435,\"h24Change\":1.0900,\"rate\":100,\"volChangePercent\":-24.3400,\"h1OIChangePercent\":-0.2500,\"h4OIChangePercent\":1.5200,\"avgFundingRate\":0.0063379631009073514785500,\"oichangePercent\":1.0900},{\"exchangeName\":\"Binance\",\"symbol\":\"BTC\",\"price\":48241.0,\"openInterest\":3666327589.38390,\"openInterestAmount\":75926.692,\"volUsd\":20982978777.20,\"h24Change\":1.6400,\"rate\":21.3400,\"h1OIChangePercent\":0.1000,\"h4OIChangePercent\":2.0800},{\"exchangeName\":\"FTX\",\"symbol\":\"BTC\",\"price\":48241.0,\"openInterest\":3413194561.82200,\"openInterestAmount\":70402.4440,\"volUsd\":3770449178.2494,\"h24Change\":4.1200,\"rate\":19.8700,\"h1OIChangePercent\":-0.1000,\"h4OIChangePercent\":4.2500},{\"exchangeName\":\"CME\",\"symbol\":\"BTC\",\"price\":48241.0,\"openInterest\":3252184057.5,\"openInterestAmount\":67465,\"volUsd\":1962927960.0,\"h24Change\":3.0400,\"rate\":18.9300,\"h1OIChangePercent\":-0.0700,\"h4OIChangePercent\":2.9700},{\"exchangeName\":\"Bybit\",\"symbol\":\"BTC\",\"price\":48241.0,\"openInterest\":1636795271.3000,\"openInterestAmount\":33907.55,\"volUsd\":4017020573.01,\"h24Change\":-0.6000,\"rate\":9.5200,\"h1OIChangePercent\":-1.1900,\"h4OIChangePercent\":0.0600},{\"exchangeName\":\"Okex\",\"symbol\":\"BTC\",\"price\":48241.0,\"openInterest\":1598903194.867,\"openInterestAmount\":33131.8296236239183672,\"volUsd\":5349315769.346,\"h24Change\":-1.3600,\"rate\":9.3000,\"h1OIChangePercent\":-0.4500,\"h4OIChangePercent\":-0.3300},{\"exchangeName\":\"Deribit\",\"symbol\":\"BTC\",\"price\":48241.0,\"openInterest\":1325923550,\"openInterestAmount\":27252.23,\"volUsd\":564125330,\"h24Change\":-1.2400,\"rate\":7.7100,\"h1OIChangePercent\":0.0300,\"h4OIChangePercent\":-0.4500},{\"exchangeName\":\"Bitfinex\",\"symbol\":\"BTC\",\"price\":48241.0,\"openInterest\":643347691.21283232,\"openInterestAmount\":13349.95520352,\"volUsd\":156595367.27694574,\"h24Change\":2.4400,\"rate\":3.7400,\"h1OIChangePercent\":-0.1700,\"h4OIChangePercent\":2.6600},{\"exchangeName\":\"Bitmex\",\"symbol\":\"BTC\",\"price\":48241.0,\"openInterest\":570750824.710408515,\"openInterestAmount\":11816.4090,\"volUsd\":972220720.891300695,\"h24Change\":-4.6900,\"rate\":3.3200,\"h1OIChangePercent\":-0.1400,\"h4OIChangePercent\":-1.7100},{\"exchangeName\":\"Huobi\",\"symbol\":\"BTC\",\"price\":48241.0,\"openInterest\":351714115.8619000000000000000,\"openInterestAmount\":7281.973138229976862407,\"volUsd\":1605520958.7908,\"h24Change\":1.2400,\"rate\":2.0400,\"h1OIChangePercent\":-0.8100,\"h4OIChangePercent\":-0.6300},{\"exchangeName\":\"Bitget\",\"symbol\":\"BTC\",\"price\":48241.0,\"openInterest\":307148865.2980000000000000,\"openInterestAmount\":6370.746,\"volUsd\":2661005323.2300,\"h24Change\":-15.3100,\"rate\":1.7800,\"h1OIChangePercent\":-2.6000,\"h4OIChangePercent\":-11.3900},{\"exchangeName\":\"dYdX\",\"symbol\":\"BTC\",\"price\":48241.0,\"openInterest\":225076105.73094300,\"openInterestAmount\":4667.6813,\"volUsd\":470246267.587100,\"h24Change\":5.8000,\"rate\":1.3100,\"h1OIChangePercent\":-0.7100,\"h4OIChangePercent\":0.2700},{\"exchangeName\":\"Kraken\",\"symbol\":\"BTC\",\"price\":48241.0,\"openInterest\":184611093.0,\"openInterestAmount\":3816.56,\"volUsd\":237875783.0,\"h24Change\":-2.7100,\"rate\":1.0700,\"h1OIChangePercent\":-0.4500,\"h4OIChangePercent\":-2.8900}],\"success\":true}",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Tue, 14 Dec 2021 23:05:05 GMT",
+        "Content-Type": "application/json",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "X-RateLimit-Remaining": "19",
+        "X-RateLimit-Burst-Capacity": "20",
+        "X-RateLimit-Replenish-Rate": "3",
+        "Strict-Transport-Security": "max-age=31536000"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Content-Type": "application/json",
+        "coinglassSecret": "***"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://open-api.coinglass.com/api/pro/v1/option/openInterest?symbol=BTC"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"code\":\"0\",\"msg\":\"success\",\"data\":[{\"exchangeName\":\"All\",\"openInterest\":225905.98550000,\"rate\":100,\"h24Change\":0.6100,\"exchangeLogo\":\"https://cdn.sampyun.com/static/blank.png\"},{\"exchangeName\":\"Deribit\",\"symbol\":\"BTC\",\"openInterest\":200921.7,\"rate\":88.9400,\"h24Change\":0.7100,\"exchangeLogo\":\"https://cdn.sampyun.com/static/exchanges/deribit.png\"},{\"exchangeName\":\"LedgerX\",\"symbol\":\"BTC\",\"openInterest\":7705.33,\"rate\":3.4100,\"h24Change\":-0.7100,\"exchangeLogo\":\"https://cdn.sampyun.com/static/exchanges/LedgerX.png\"},{\"exchangeName\":\"CME\",\"symbol\":\"BTC\",\"openInterest\":6560,\"rate\":2.9000,\"h24Change\":1.6200,\"exchangeLogo\":\"https://cdn.sampyun.com/static/exchanges/cme-icon-144x144.png\"},{\"exchangeName\":\"Bit.com\",\"symbol\":\"BTC\",\"openInterest\":4865.80000000,\"rate\":2.1500,\"h24Change\":0.9500,\"exchangeLogo\":\"https://cdn.sampyun.com/static/exchanges/bit-com.png\"},{\"exchangeName\":\"Okex\",\"symbol\":\"BTC\",\"openInterest\":4728.0,\"rate\":2.0900,\"h24Change\":0.4800,\"exchangeLogo\":\"https://cdn.sampyun.com/static/exchanges/294.png\"},{\"exchangeName\":\"FTX\",\"symbol\":\"BTC\",\"openInterest\":1125.1555,\"rate\":0.4900,\"h24Change\":-12.6200,\"exchangeLogo\":\"https://cdn.sampyun.com/static/exchanges/524.png\"}],\"success\":true}",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Tue, 14 Dec 2021 23:27:28 GMT",
+        "Content-Type": "application/json",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "X-RateLimit-Remaining": "18",
+        "X-RateLimit-Burst-Capacity": "20",
+        "X-RateLimit-Replenish-Rate": "3",
+        "Strict-Transport-Security": "max-age=31536000"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

@@ -40,7 +40,7 @@ https://coinglass.github.io/API-Reference/#general-info
 #### Options
 
 - [x] `GET https://open-api.coinglass.com/api/pro/v1/option/openInterest`
-- [ ] `GET https://open-api.coinglass.com/api/pro/v1/option/openInterest/history/chart`
+- [x] `GET https://open-api.coinglass.com/api/pro/v1/option/openInterest/history/chart`
 - [ ] `GET https://open-api.coinglass.com/api/pro/v1/option/vol/history/chart`
 
 ## Authors

@@ -2,7 +2,7 @@
 [![Build Status](https://github.com/fremantle-industries/ex_coinglass/workflows/test/badge.svg?branch=main)](https://github.com/fremantle-industries/ex_coinglass/actions?query=workflow%3Atest)
 [![hex.pm version](https://img.shields.io/hexpm/v/ex_coinglass.svg?style=flat)](https://hex.pm/packages/ex_coinglass)
 
-FTX API Client for Elixir
+Coinglass API Client for Elixir
 
 ## Installation
 

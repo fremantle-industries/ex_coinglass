@@ -1,0 +1,32 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Content-Type": "application/json",
+        "coinglassSecret": "***"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://open-api.coinglass.com/api/pro/v1/futures/liquidation_chart?exName=Bitmex&symbol=BTC"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"code\":\"30001\",\"msg\":\"secret invalid\",\"success\":false}",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Wed, 15 Dec 2021 06:21:55 GMT",
+        "Content-Type": "application/json",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "X-RateLimit-Remaining": "19",
+        "X-RateLimit-Burst-Capacity": "20",
+        "X-RateLimit-Replenish-Rate": "3",
+        "Strict-Transport-Security": "max-age=31536000"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

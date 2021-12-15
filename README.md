@@ -31,7 +31,7 @@ https://coinglass.github.io/API-Reference/#general-info
 
 - [x] `GET https://open-api.coinglass.com/api/pro/v1/futures/openInterest`
 - [x] `GET https://open-api.coinglass.com/api/pro/v1/futures/openInterest/chart`
-- [ ] `GET https://open-api.coinglass.com/api/pro/v1/futures/liquidation_chart`
+- [x] `GET https://open-api.coinglass.com/api/pro/v1/futures/liquidation_chart`
 - [ ] `GET https://open-api.coinglass.com/api/pro/v1/futures/liquidation/detail/chart`
 - [ ] `GET https://open-api.coinglass.com/api/pro/v1/futures/longShort_chart`
 - [ ] `GET https://open-api.coinglass.com/api/pro/v1/futures/funding_rates_chart`

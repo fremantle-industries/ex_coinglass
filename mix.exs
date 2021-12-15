@@ -4,7 +4,7 @@ defmodule ExCoinglass.MixProject do
   def project do
     [
       app: :ex_coinglass,
-      version: "0.0.1",
+      version: "0.0.2",
       elixir: "~> 1.11",
       package: package(),
       start_permanent: Mix.env() == :prod,

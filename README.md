@@ -35,7 +35,7 @@ https://coinglass.github.io/API-Reference/#general-info
 - [ ] `GET https://open-api.coinglass.com/api/pro/v1/futures/liquidation/detail/chart`
 - [ ] `GET https://open-api.coinglass.com/api/pro/v1/futures/longShort_chart`
 - [ ] `GET https://open-api.coinglass.com/api/pro/v1/futures/funding_rates_chart`
-- [ ] `GET https://open-api.coinglass.com/api/pro/v1/futures/vol/chart`
+- [x] `GET https://open-api.coinglass.com/api/pro/v1/futures/vol/chart`
 
 #### Options
 

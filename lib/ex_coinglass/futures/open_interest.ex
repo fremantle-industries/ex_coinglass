@@ -3,8 +3,8 @@ defmodule ExCoinglass.Futures.OpenInterest do
 
   @type symbol :: String.t()
   @type api_key :: String.t()
-  @type futures_open_interest :: ExCoinglass.OptionsOpenInterest.t()
-  @type result :: {:ok, [futures_open_interest]} | {:error, JsonResponse.msg(), :parse_result_item}
+  @type futures_open_interest :: ExCoinglass.FuturesOpenInterest.t()
+  @type result :: {:ok, [futures_open_interest]} | {:error, JsonResponse.msg() | :parse_result_item}
 
   @spec get(symbol, api_key) :: result
   def get(symbol, api_key) do
